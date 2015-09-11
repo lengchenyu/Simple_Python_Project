@@ -65,7 +65,7 @@ class HTMLRenderer(Handler):
 
 	def sub_mail(self,  match):
 	    return '<a href="mailto:%s">%s</a>' % (match.group(1),
-	    										match.group(1))
+	    					   match.group(1))
 
 	def feed(self, data):
 	    print data
